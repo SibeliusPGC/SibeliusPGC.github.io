@@ -163,6 +163,11 @@ body,html{
 	align-items: center;
 }
 
+.header__nav{
+	max-width: 100%;
+}
+
+
 
 .header__nav a:hover{
 	color: #BFDAFF;
