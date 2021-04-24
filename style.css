@@ -1,0 +1,155 @@
+
+*{
+	box-sizing: border-box;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+@keyframes body {
+  from {
+   opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+body,html{
+	height: 100vh;
+	animation-name: body;
+	animation-duration: 2s;
+}
+
+.fondo{
+	background-image: url("multimedia/fotos/fondo-home2.jpeg");
+	background-position:50% 10%;
+	background-size:cover;
+	height: 100%;
+	filter: blur(2px) brightness(65%);
+}
+
+.home{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	z-index: 10;
+	width: 90vw;
+	height: 90vh;
+}
+
+.header{
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header a{
+	margin: 10px;
+}
+
+.header__nav a{
+	font-size: 1.5em;
+	text-decoration: none;
+	border-bottom: 1px solid #bbb;
+	transition: all 0.3s;
+	padding-bottom: 8px;
+	margin:0 10px;
+
+}
+
+.header__nav a i{
+	margin:0 7px;
+}
+
+
+
+.header__nav a:hover{
+	color: #BFDAFF;
+	text-shadow:  3px 3px 15px  #fff;
+	border-bottom: 5px solid #6A83A5;
+}
+
+
+.header div{
+	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: oblique;
+	text-shadow: 1px 1px 10px #fff;
+}
+
+.main{
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+
+.main h3{
+	padding: 15px 0px;
+	margin-left: 15px;
+	font-style: italic;
+}
+
+
+.main__contact{
+	max-width: 50%;
+	min-height: 25%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.main__contact div{
+	display: inline-flex;
+	margin: 10px;
+	padding: 5px;
+	font-size: 1.5em; 
+	transition: all 0.5s;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #bbb;
+}
+
+.main__contact div:hover {
+	color: #BFDAFF;
+	padding: 12px;
+	border: 2.5px solid #6A83A5; 
+}
+
+
+
+
+
+.footer{
+	display: block;
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.footer div{
+	padding: 10px 5px;
+}
+
+.footer a{
+	padding: 0 7px;
+}
+
+.footer a i{
+	transition: all 0.5s;
+	border-radius: 50%;
+}
+
+
+.footer a i:hover{
+	font-size: 1.5em;
+	transform: translate(5px,-5px);
+	box-shadow:  4px 4px 20px  #fff;
+}
+
