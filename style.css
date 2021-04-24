@@ -163,8 +163,8 @@ body,html{
 	align-items: center;
 }
 
-.header__nav a{
-	max-width: 33%;
+.header__nav{
+	flex-wrap: nowrap;
 }
 
 
