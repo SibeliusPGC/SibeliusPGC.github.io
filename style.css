@@ -23,7 +23,7 @@ body,html{
 }
 
 .fondo{
-	background-image: url("multimedia/fotos/fondo-home2.jpeg");
+	background-image: url("multimedia/fotos/fondo.jpg");
 	background-position:50% 10%;
 	background-size:cover;
 	height: 100%;
