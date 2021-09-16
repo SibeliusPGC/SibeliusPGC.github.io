@@ -27,7 +27,7 @@ body,html{
 	background-position:50% 10%;
 	background-size:cover;
 	height: 100%;
-	filter: brightness(65%);
+	filter:brightness(65%);
 }
 
 .home{
@@ -138,11 +138,11 @@ body,html{
 }
 
 .footer div{
-	padding: 10px 5px;
+	padding: 10px 1px;
 }
 
 .footer a{
-	padding: 0 7px;
+	padding: 0 17px 0 5px;
 }
 
 .footer a i{
@@ -154,7 +154,7 @@ body,html{
 .footer a i:hover{
 	font-size: 1.5em;
 	transform: translate(5px,-5px);
-	box-shadow:  4px 4px 20px  #fff;
+	box-shadow:  1px 1px 20px  #fff;
 }
 
 @media screen and (max-width: 600px){
