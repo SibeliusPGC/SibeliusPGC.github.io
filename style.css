@@ -38,7 +38,7 @@ body,html{
 	transform: translate(-50%,-50%);
 	z-index: 10;
 	width: 90vw;
-	height: 90vh;
+	height: 90%;
 }
 
 .header{
@@ -46,6 +46,8 @@ body,html{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	
+	
 }
 
 .header__nav{
@@ -79,6 +81,54 @@ body,html{
 
 .header div{
 	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: oblique;
+	text-shadow: 1px 1px 10px #fff;
+}
+
+.header2{
+	width: 90vw;
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 45px 45px 10px 45px;
+	
+	
+}
+
+.header2__nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.header2__nav a{
+	font-size: 0.5em;
+	text-decoration: none;
+	border-bottom: 1px solid #bbb;
+	transition: all 0.3s;
+	margin: 0 5px;
+	padding-bottom: 5px;
+	
+}
+
+.header2__nav a i{
+	margin:0 7px;
+}
+
+
+
+.header2__nav a:hover{
+	color: #BFDAFF;
+	text-shadow:  3px 3px 15px  #fff;
+	border-bottom: 2px solid #6A83A5;
+}
+
+
+.header2 div{
+	font-size: 1em;
 	font-family: 'Josefin Sans', sans-serif;
 	font-style: oblique;
 	text-shadow: 1px 1px 10px #fff;
@@ -132,57 +182,9 @@ body,html{
 	border: 2.5px solid #6A83A5; 
 }
 
-.fondo2{
-	background-image: url("multimedia/fotos/fondo2.jpg");
-	background-position:50% 10%;
-	background-size:cover;
-	height: 100%;
-	filter:brightness(50%);
-}
-
-
-.home_proyectos{
-	height: 100%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	margin: 60px 0 0 0;
-	
-	
-}
-
-.home_proyectos div{
-	display: inline-flex;
-	margin: 10px;
-	padding: 5px;
-	font-size: 1.5em; 
-	transition: all 0.5s;
-	padding-bottom: 8px;
-	border-bottom: 1px solid #fff;
-	color: #fff;
-	
-}
-
-.home_proyectos div:hover {
-	color: #BFDAFF;
-	padding: 12px;
-	border: 2.5px solid #6A83A5; 
-}
-
-
-.fondo3{
-	background-image: url("multimedia/fotos/fondo3.jpg");
-	background-position:10% 10%;
-	background-size:cover;
-	height: 100%;
-	filter:brightness(75%);
-}
-
-
-
 .footer{
 	display: block;
-	height: 10%;
+	height: 16%;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
@@ -207,6 +209,129 @@ body,html{
 	transform: translate(5px,-5px);
 	box-shadow:  1px 1px 20px  #fff;
 }
+
+.fondo2{
+	background-image: url("multimedia/fotos/fondo2.jpg");
+	background-position:50% 10%;
+	background-size:cover;
+	height: 100%;
+	filter:brightness(50%);
+}
+
+
+.home_proyectos{
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+.home_proyectos1{
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.home_proyectos1 > div{
+	display: inline-flex;
+	margin: 10px 75px;
+	padding: 5px;
+	font-size: 1.5em; 
+	transition: all 0.5s;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	
+}
+
+.home_proyectos1 > div:hover {
+	color: #BFDAFF;
+	padding: 12px;
+	border: 2.5px solid #6A83A5; 
+}
+
+
+.fondo3{
+	background-image: url("multimedia/fotos/fondo3.jpg");
+	background-position:10% 10%;
+	background-size:cover;
+	height: 100%;
+	filter:brightness(60%);
+}
+
+.home_contacto {
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.home_contacto-formulario{
+	margin-top: 35px;
+}
+
+
+.home_contacto-formulario input{
+	display: block;
+	border:  1px solid #fff;
+	background: none;
+	margin: 10px 0; 
+	width: 300px;
+	height: 30px;
+	outline: none;
+}
+
+
+.home_contacto-formulario input:focus{
+	border:  1px solid #6A83A5;
+	transition: 0.5s;
+}
+
+.home_contacto-formulario .home_contacto-formulario3{
+	display: block;
+	border:  1px solid #fff;
+	background: none;
+	margin: 10px 0; 
+	width: 300px;
+	height: 250px;
+	outline: none;
+}
+
+.home_contacto-formulario .home_contacto-formulario3:focus{
+	border:  1px solid #6A83A5;
+	transition: 0.5s;
+}
+
+
+
+.home_contacto button{
+	color: #fff;
+	text-decoration: none;
+	width: 300px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	margin: 10px 0;
+	padding: 3px 0;
+	cursor: pointer;
+}
+
+.home_contacto button:hover{
+	color: #BFDAFF;
+	padding: 8px;
+	border: 1.5px solid #6A83A5; 
+	transition: 0.5s;
+}
+
+
+
+
+
 
 @media screen and (max-width: 600px){
 
@@ -255,6 +380,9 @@ body,html{
 	flex-direction: column;
 	justify-content: center;
 }
+
+
+
 
 
 .footer{
