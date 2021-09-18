@@ -266,7 +266,6 @@ body,html{
 	height: 100%;
 	display: flex;
 	justify-content:space-between;
-	align-content: space-between;
 	align-items: flex-end;
 	flex-direction: column;
 
@@ -274,8 +273,9 @@ body,html{
 }
 
 .home_contacto-formulario{
-	margin-top: 35px;
-	width: 80vw;
+	margin-top: 10%;
+	margin-right:10% ;
+	width: 70vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
