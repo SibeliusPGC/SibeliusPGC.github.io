@@ -286,13 +286,16 @@ body,html{
 
 
 .home_contacto-formulario input{
-	
 	border:  1px solid #fff;
 	background: none;
 	margin: 10px 0; 
 	width: 70%;
 	height: 30px;
 	outline: none;
+}
+
+.home_contacto-formulario input::placeholder{
+	color: rgb(189, 188, 188);
 }
 
 
@@ -302,7 +305,6 @@ body,html{
 }
 
 .home_contacto-formulario .home_contacto-formulario3{
-	
 	border:  1px solid #fff;
 	background: none;
 	margin: 10px 0; 
@@ -316,6 +318,9 @@ body,html{
 	transition: 0.5s;
 }
 
+.home_contacto-formulario .home_contacto-formulario3::placeholder{
+	color: rgb(189, 188, 188);
+}
 
 
 .home_contacto button{
