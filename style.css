@@ -105,7 +105,7 @@ body,html{
 
 
 .header2__nav a{
-	font-size: 1em;
+	font-size: 1.5em;
 	text-decoration: none;
 	border-bottom: 1px solid #bbb;
 	transition: all 0.3s;
@@ -128,7 +128,7 @@ body,html{
 
 
 .header2 div{
-	font-size: 1.2em;
+	font-size: 2.5em;
 	font-family: 'Josefin Sans', sans-serif;
 	font-style: oblique;
 	text-shadow: 1px 1px 10px #fff;
@@ -265,14 +265,16 @@ body,html{
 .home_contacto {
 	height: 100%;
 	display: flex;
-	justify-content:center;
-	align-items: center;
+	justify-content:space-between;
+	align-items: flex-end;
 	flex-direction: column;
 
 }
 
 .home_contacto-formulario{
 	margin-top: 35px;
+	width: 80vw;
+	
 }
 
 
@@ -281,7 +283,7 @@ body,html{
 	border:  1px solid #fff;
 	background: none;
 	margin: 10px 0; 
-	width: 300px;
+	width: 70%;
 	height: 30px;
 	outline: none;
 }
@@ -297,7 +299,7 @@ body,html{
 	border:  1px solid #fff;
 	background: none;
 	margin: 10px 0; 
-	width: 300px;
+	width: 70%;
 	height: 250px;
 	outline: none;
 }
@@ -312,7 +314,7 @@ body,html{
 .home_contacto button{
 	color: #fff;
 	text-decoration: none;
-	width: 300px;
+	width: 70%;
 	background: none;
 	border: none;
 	border-bottom: 1px solid #fff;
