@@ -265,11 +265,8 @@ body,html{
 .home_contacto {
 	height: 100%;
 	display: flex;
-	
 	align-items: flex-end;
 	flex-direction: column;
-
-
 }
 
 .home_contacto-formulario{
@@ -353,11 +350,13 @@ body,html{
 	user-select: none;
 }
 
+
+
 .header{
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
-	height: 40vh;
+	height: 20vh;
 }
 
 
@@ -365,7 +364,7 @@ body,html{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: center;
 }
 
 .header__nav a{
@@ -382,7 +381,7 @@ body,html{
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	height: 40vh;
+	height: 60vh;
 
 }
 
@@ -404,4 +403,65 @@ body,html{
 	justify-content: center;
 	padding-top: 10px;
 	
+}
+
+
+.header2{
+	width: 85vw;
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+}
+
+.header2__nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.header2__nav a{
+	font-size: 0.7em;
+	text-decoration: none;
+	border-bottom: 1px solid #bbb;
+	transition: all 0.3s;
+	margin: 0 5px;
+	padding-bottom: 5px;
+	
+}
+
+
+.header2 div{
+	font-size: 0.7em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: oblique;
+	text-shadow: 1px 1px 10px #fff;
+}
+
+.home_proyectos1{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.home_contacto {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: space-around;
+}
+
+.home_contacto-formulario{
+	width: 90vw;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
 }
