@@ -407,6 +407,7 @@ body,html{
 }
 
 
+
 .header2{
 	width: 85vw;
 	height: 10%;
@@ -441,6 +442,8 @@ body,html{
 	text-shadow: 1px 1px 10px #fff;
 }
 
+
+
 .home_proyectos1{
 	height: 100vh;
 	display: flex;
@@ -458,6 +461,8 @@ body,html{
 
 	text-decoration: none;
 }
+
+
 
 .home_contacto {
 	height: 100%;
