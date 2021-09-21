@@ -50,37 +50,11 @@ body,html{
 	
 }
 
-.header__nav{
-	display: flex;
-	justify-content: space-between;
-}
 
-
-
-.header__nav a{
-	font-size: 1.5em;
-	text-decoration: none;
-	border-bottom: 1px solid #bbb;
-	transition: all 0.3s;
-	margin: 0 10px;
-	padding-bottom: 15px;
-}
-
-.header__nav a i{
-	margin:0 7px;
-}
-
-
-
-.header__nav a:hover{
-	color: #BFDAFF;
-	text-shadow:  3px 3px 15px  #fff;
-	border-bottom: 5px solid #6A83A5;
-}
 
 
 .header div{
-	font-size: 2.5em;
+	font-size: 2.7em;
 	font-family: 'Josefin Sans', sans-serif;
 	font-style: oblique;
 	text-shadow: 1px 1px 10px #fff;
@@ -93,19 +67,20 @@ body,html{
 	justify-content: space-between;
 	align-items: center;
 	padding: 35px 35px 5px 35px;
-	
-	
 }
+
+
 
 .header2__nav{
 	display: flex;
 	justify-content: space-between;
+	font-size: 0.5em;
 }
 
 
 
 .header2__nav a{
-	font-size: 1.5em;
+	font-size: 3em;
 	text-decoration: none;
 	border-bottom: 1px solid #bbb;
 	transition: all 0.3s;
@@ -128,7 +103,7 @@ body,html{
 
 
 .header2 div{
-	font-size: 2.5em;
+	font-size: 2.7em;
 	font-family: 'Josefin Sans', sans-serif;
 	font-style: oblique;
 	text-shadow: 1px 1px 10px #fff;
@@ -141,13 +116,17 @@ body,html{
 	justify-content: center;
 }
 
-
+.main h1{
+	font-size: 3em;
+}
+	
 
 
 .main h3{
 	padding: 15px 0px;
 	margin-left: 15px;
 	font-style: italic;
+	font-size: 2em;
 }
 
 
@@ -156,7 +135,7 @@ body,html{
 	min-height: 25%;
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+	align-items: flex-end;
 }
 
 
@@ -164,7 +143,7 @@ body,html{
 	display: inline-flex;
 	margin: 10px;
 	padding: 5px;
-	font-size: 1.5em; 
+	font-size: 2em; 
 	transition: all 0.5s;
 	padding-bottom: 8px;
 	border-bottom: 1px solid #bbb;
@@ -192,6 +171,7 @@ body,html{
 
 .footer div{
 	padding: 10px 1px;
+	font-size: 1.5em;
 }
 
 .footer a{
@@ -239,12 +219,15 @@ body,html{
 	display: inline-flex;
 	margin: 10px 75px;
 	padding: 5px;
-	font-size: 1.5em; 
+	font-size: 2em; 
 	transition: all 0.5s;
 	padding-bottom: 8px;
 	border-bottom: 1px solid #fff;
 	color: #fff;
-	
+}
+
+.home_proyectos1 > div a{
+	text-decoration: none;
 }
 
 .home_proyectos1 > div:hover {
