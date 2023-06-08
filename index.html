@@ -1,111 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>PGC DataScientist</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Open+Sans+Condensed:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="normalize.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script
-      src="https://kit.fontawesome.com/62ea397d3a.js"
-      crossorign="anonymous"
-    ></script>
-    <meta charset="utf-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+    </style>
+    <title>Turnos medicos</title>
   </head>
-
   <body class="body">
-    <div class="fondo"></div>
-    <div class="fondo2"></div>
-    <div class="fondo3"></div>
-    <div class="home" id="home">
-      <header class="header">
-        <div>Pablo Garcia</div>
-      </header>
-
-      <main class="main">
-        <h1>DataScientist</h1>
-        <h3>Comenzando un nuevo rumbo lleno de desafios.</h3>
-        <div class="main__contact">
-          <div><a href="#projects"> Mira mis proyectos!</a></div>
-          <div><a href="#contact">Coordinar una entrevista</a></div>
-          <div>
-            <a href="multimedia/CV2021.pdf" target="_blank"> Enlace a mi CV</a>
-          </div>
-        </div>
-      </main>
-      <footer class="footer">
-        <div>LinkedIn</div>
-        <a href="https://www.linkedin.com/in/pablo-garcia90/" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <div>Kaggle</div>
-        <a href="https://www.kaggle.com/sibeliuspgc" target="_blank">
-          <i class="fab fa-kaggle"></i>
-        </a>
-      </footer>
-
-      <section class="home_proyectos" id="projects">
-        <header class="header2">
-          <div>Pablo Garcia</div>
-
-          <nav class="header2__nav">
-            <a href="#home"><i class="fas fa-home"></i>Home</a>
-            <a href="#projects"
-              ><i class="fas fa-project-diagram"></i>Proyectos</a
-            >
-            <a href="#contact"><i class="fas fa-address-book"></i>Contacto</a>
-          </nav>
-        </header>
-        <section class="home_proyectos1">
-          <div>
-            <a
-              href="https://www.kaggle.com/sibeliuspgc/pre-process-fraud-eth-dataset"
-              target="_blank"
-              >Detección de fraude en ETH</a
-            >
-          </div>
-          <div>
-            <a
-              href="https://www.kaggle.com/sibeliuspgc/credit-card-clustering"
-              target="_blank"
-              >Segmentación de clientes en tarjeta de crédito</a
-            >
-          </div>
-          <div>Optimización costos aerolinea</div>
-        </section>
-      </section>
-
-      <section class="home_contacto" id="contact">
-        <header class="header2">
-          <div>Pablo Garcia</div>
-          <nav class="header2__nav">
-            <a href="#home"><i class="fas fa-home"></i>Home</a>
-            <a href="#projects"
-              ><i class="fas fa-project-diagram"></i>Proyectos</a
-            >
-            <a href="#contact"><i class="fas fa-address-book"></i>Contacto</a>
-          </nav>
-        </header>
-        <form class="home_contacto-formulario">
-          <input
-            type="text"
-            name="nombre"
-            placeholder="  Ingresa tu Nombre o Empresa"
-          />
-          <input type="email" name="mail" placeholder="  Ingresa tu E-mail" />
-          <textarea
-            class="home_contacto-formulario3"
-            type="text"
-            name="mensaje"
-            placeholder=" Ingresa tu mensaje"
-          ></textarea>
-          <button>Enviar</button>
-        </form>
-      </section>
-    </div>
+    <header id="tituloConsultorio">Consultorio</header>
+    <h3 id="titulo2WebTurnos">Web de turnos</h3>
+    <main>
+      <div class="select">
+        <select id="opciones" onchange="cargarResultado()">
+          <option value="">Selecciona médico</option>
+          <option value="opcion1">Opción 1</option>
+          <option value="opcion2">Opción 2</option>
+          <option value="opcion3">Opción 3</option>
+          <option value="opcion4">Opcion 4</option>
+          <option value="opcion5">Opcion 5</option>
+          <option value="opcion6">Opcion 6</option>
+          <option value="opcion7">Opcion 7</option>
+          <option value="opcion8">Opcion 8</option>
+          <option value="opcion9">Opcion 9</option>
+          <option value="opcion10">Opcion 10</option>
+          <option value="opcion11">Opcion 11</option>
+          <option value="opcion12">Opcion 12</option>
+        </select>
+        <div class="select_arrow"></div>
+      </div>
+      <div id="resultadoEmbed"></div>
+    </main>
+    <footer>
+     
+    </footer>
+    <script src="js/turnos.js"></script>
   </body>
 </html>
